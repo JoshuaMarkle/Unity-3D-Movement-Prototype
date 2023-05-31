@@ -16,6 +16,6 @@ This player movement script includes the following features:
 
 As well as a sample scene to showcase what it may feel like!
 
-## Credits
+## 📄 Credits
 
-You can use this code in any project you want :)
+You can use this code in any project you want 😊
