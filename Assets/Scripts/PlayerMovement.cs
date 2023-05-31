@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-    // --------------------------------------------------------------------------------- Variables ------------------------------------------------------------------------ //
     #region Variables
         #region Assingables
             [Header("Assingables")]
@@ -122,7 +121,6 @@ public class PlayerMovement : MonoBehaviour {
         #endregion
     #endregion
 
-    // -------------------------------------------------------------------------------- Core Functions ------------------------------------------------------------------- //
     #region Start & Awake
         void Awake() {
             rb = GetComponent<Rigidbody>();
@@ -160,7 +158,6 @@ public class PlayerMovement : MonoBehaviour {
         }
     #endregion
 
-    // --------------------------------------------------------------------------------- Functions ----------------------------------------------------------------------- //
     #region Player Actions
         #region Input
             private void MyInput() {
